@@ -1,0 +1,149 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #f6f6f6;
+    color: #353736;
+}
+
+.avatar {
+    display: block;
+    height: 100px;
+    margin: 30px auto 0 auto;
+    width: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.top-avatar {
+    display: block;
+    height: 30px;
+    width: 30px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.faint {
+    color: #e9ecef;
+}
+
+.email {
+    font-size: 26px;
+    margin: 30px -40px 30px 0;
+    text-align: center;
+}
+
+.email span {
+    color: #ed4837;
+}
+
+.email .faint {
+    color: #e9ecef;
+}
+
+.email .letter-s {
+    padding-left: 26px;
+}
+
+.email:hover {
+    margin-right: 0;
+}
+
+.email:hover .faint {
+    color: inherit;
+}
+
+.email:hover .letter-s {
+    padding-left: 0;
+}
+
+.bg-navbar {
+    background-color: rgba(161, 156, 158, 0.64);
+}
+
+a.bg-navbar:focus, a.bg-navbar:hover, button.bg-navbar:focus, button.bg-navbar:hover {
+    background-color: rgba(136, 135, 130, 0.35);
+}
+
+nav {
+    display: none;
+}
+
+nav .navbar-avatar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav .navbar-avatar img {
+    height: 40px;
+    width: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+
+body.show-nav a.anchor {
+    display: block;
+    position: relative;
+    top: -70px;
+}
+
+body.show-nav nav {
+    display: block;
+}
+
+.skills {
+    margin-bottom: 30px;
+}
+
+.name {
+    text-align: right;
+}
+
+.works .skills {
+    float: left;
+    font-size: 0.7em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.works .skills li {
+    display: inline-block;
+}
+
+.works .skills li .name:after {
+    content: ',';
+}
+
+.works .skills li:last-child .name:after {
+    content: '';
+}
+
+.works .thumbnail > * {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.works h3, .works .skills {
+    white-space: nowrap;
+}
+
+.works h3 {
+    line-height: 1.3em;
+    margin-bottom: 0;
+}
+
+.works p {
+    height: 5em;
+}
+
+.works a {
+    color: #ed4837;
+}
+
+.article {
+    margin-bottom: 1000px
+}
+
